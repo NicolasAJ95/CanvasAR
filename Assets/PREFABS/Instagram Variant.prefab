@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8030812106938103497
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_Name
+      value: Instagram
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.505
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5506899
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a449d83478b3bf4449359613c4845416, type: 2}
+    - target: {fileID: 2300002, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 023f8306fe1578645835afe103a00f63, type: 2}
+    - target: {fileID: 2300004, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 023f8306fe1578645835afe103a00f63, type: 2}
+    - target: {fileID: 2300006, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 023f8306fe1578645835afe103a00f63, type: 2}
+    - target: {fileID: 2300008, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 023f8306fe1578645835afe103a00f63, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff33e11bb773e6c4f9f21c255e05a091, type: 3}
