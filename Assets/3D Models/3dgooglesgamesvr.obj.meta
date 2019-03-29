@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 58c9dd3e8824b9b40a24422e01c92193
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: front_Googles
+    100004: Googles_body
+    100006: Googles_L_belt
+    100008: Googles_L_belt_plastic_L
+    100010: Googles_L_binocular
+    100012: Googles_L_binocular_L_glass
+    100014: Googles_L_binocular_L_pin
+    100016: Googles_L_ventilation
+    100018: Googles_plastic_support_behind
+    100020: Googles_R_belt
+    100022: Googles_R_belt_R_plastic
+    100024: Googles_R_binocular
+    100026: Googles_R_binocular_R_glass
+    100028: Googles_R_binocular_R_pin
+    100030: Googles_R_ventilation
+    100032: Googles_Rubber
+    100034: Googles_Up_belt
+    100036: Googles_Up_belt_Up_plastic
+    400000: //RootNode
+    400002: front_Googles
+    400004: Googles_body
+    400006: Googles_L_belt
+    400008: Googles_L_belt_plastic_L
+    400010: Googles_L_binocular
+    400012: Googles_L_binocular_L_glass
+    400014: Googles_L_binocular_L_pin
+    400016: Googles_L_ventilation
+    400018: Googles_plastic_support_behind
+    400020: Googles_R_belt
+    400022: Googles_R_belt_R_plastic
+    400024: Googles_R_binocular
+    400026: Googles_R_binocular_R_glass
+    400028: Googles_R_binocular_R_pin
+    400030: Googles_R_ventilation
+    400032: Googles_Rubber
+    400034: Googles_Up_belt
+    400036: Googles_Up_belt_Up_plastic
+    2100000: front_GooglesMat
+    2100002: Googles_bodyMat
+    2100004: Googles_L_beltMat
+    2100006: Googles_L_belt_plastic_LMat
+    2100008: Googles_L_binocularMat
+    2100010: Googles_L_binocular_L_glassMat
+    2100012: Googles_L_binocular_L_pinMat
+    2100014: Googles_L_ventilationMat
+    2100016: Googles_plastic_support_behindMat
+    2100018: Googles_R_beltMat
+    2100020: Googles_R_belt_R_plasticMat
+    2100022: Googles_R_binocularMat
+    2100024: Googles_R_binocular_R_glassMat
+    2100026: Googles_R_binocular_R_pinMat
+    2100028: Googles_R_ventilationMat
+    2100030: Googles_RubberMat
+    2100032: Googles_Up_beltMat
+    2100034: Googles_Up_belt_Up_plasticMat
+    2300000: front_Googles
+    2300002: Googles_body
+    2300004: Googles_L_belt
+    2300006: Googles_L_belt_plastic_L
+    2300008: Googles_L_binocular
+    2300010: Googles_L_binocular_L_glass
+    2300012: Googles_L_binocular_L_pin
+    2300014: Googles_L_ventilation
+    2300016: Googles_plastic_support_behind
+    2300018: Googles_R_belt
+    2300020: Googles_R_belt_R_plastic
+    2300022: Googles_R_binocular
+    2300024: Googles_R_binocular_R_glass
+    2300026: Googles_R_binocular_R_pin
+    2300028: Googles_R_ventilation
+    2300030: Googles_Rubber
+    2300032: Googles_Up_belt
+    2300034: Googles_Up_belt_Up_plastic
+    3300000: front_Googles
+    3300002: Googles_body
+    3300004: Googles_L_belt
+    3300006: Googles_L_belt_plastic_L
+    3300008: Googles_L_binocular
+    3300010: Googles_L_binocular_L_glass
+    3300012: Googles_L_binocular_L_pin
+    3300014: Googles_L_ventilation
+    3300016: Googles_plastic_support_behind
+    3300018: Googles_R_belt
+    3300020: Googles_R_belt_R_plastic
+    3300022: Googles_R_binocular
+    3300024: Googles_R_binocular_R_glass
+    3300026: Googles_R_binocular_R_pin
+    3300028: Googles_R_ventilation
+    3300030: Googles_Rubber
+    3300032: Googles_Up_belt
+    3300034: Googles_Up_belt_Up_plastic
+    4300000: front_Googles
+    4300002: Googles_body
+    4300004: Googles_L_belt
+    4300006: Googles_L_belt_plastic_L
+    4300008: Googles_L_binocular
+    4300010: Googles_L_binocular_L_glass
+    4300012: Googles_L_binocular_L_pin
+    4300014: Googles_L_ventilation
+    4300016: Googles_plastic_support_behind
+    4300018: Googles_R_belt
+    4300020: Googles_R_belt_R_plastic
+    4300022: Googles_R_binocular
+    4300024: Googles_R_binocular_R_glass
+    4300026: Googles_R_binocular_R_pin
+    4300028: Googles_R_ventilation
+    4300030: Googles_Rubber
+    4300032: Googles_Up_belt
+    4300034: Googles_Up_belt_Up_plastic
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
