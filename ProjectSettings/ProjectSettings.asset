@@ -243,7 +243,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/timem/Desktop/LostInSpace_Keystore/userLostInSpace.keystore
+  AndroidKeystoreName: "C:/Users/timem/Google Drive/Wab Creative/Lost in Space/Producci\xF3n/Builds/LostInSpace_Keystore/userLostInSpace.keystore"
   AndroidKeyaliasName: wab
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
