@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="Logo" size="0.200000 0.200000" />
-    <ImageTarget name="AR_CanalesJPG" size="0.100000 0.098727" />
-    <ImageTarget name="AR_Client_RelationsJPG" size="0.100000 0.095502" />
-    <ImageTarget name="AR_Key_Partners" size="0.100000 0.102957" />
-    <ImageTarget name="AR_ClientJPG" size="0.100000 0.103883" />
-    <ImageTarget name="AR_CostosJPG" size="0.100000 0.100569" />
-    <ImageTarget name="AR_IngresosJPG" size="0.100000 0.102534" />
-    <ImageTarget name="AR_Key_ResourcesJPG" size="0.100000 0.100364" />
-    <ImageTarget name="AR_Value_Proposition" size="0.200000 0.201481" />
-    <ImageTarget name="AR_Key_ActivitiesJPG" size="0.100000 0.101852" />
+    <ImageTarget name="MainTarget" size="0.200000 0.200000" />
   </Tracking>
 </QCARConfig>
