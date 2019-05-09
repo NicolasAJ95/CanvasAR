@@ -48,6 +48,7 @@ public class CanvasManager : MonoBehaviour
             }
             */
 
+        AutoFocus();
         arCanvas.GetComponent<Transform>().rotation = new Quaternion(0, 0, 0, 0);
 
         positionsQueue = new Queue<Vector3>();
@@ -174,5 +175,9 @@ public class CanvasManager : MonoBehaviour
             arCanvas.GetComponent<Transform>().rotation = new Quaternion(0, 0, 0, 0);
         }
 
+    }
+    public void AutoFocus()
+    {
+        CameraDevice.Instance.SetFocusMode(CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
     }
 }
