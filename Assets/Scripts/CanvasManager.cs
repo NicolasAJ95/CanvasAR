@@ -8,12 +8,9 @@ public class CanvasManager : MonoBehaviour
 
     [SerializeField]
     private GameObject arCanvas;
+
     [SerializeField]
     private Transform[] objectsTransform;
-
-
-    [SerializeField]
-    private Vector3 anchorPosition;
 
     [SerializeField]
     private Vector3[] objectsPosition;
@@ -23,58 +20,41 @@ public class CanvasManager : MonoBehaviour
 
     [SerializeField]
     private Queue<Vector3> positionsQueue;
+    [SerializeField]
+    private Queue<Vector3> lastPositionsQueue;
+
     // Start is called before the first frame update
     void Start()
     {
-        //totalObjects = arCanvas.GetComponentsInChildren<Transform>();
 
-        //TO-DO: Create system to auto assign objects to transform array
-
-        /* objectsPosition = new Vector3[objectsTransform.Length];
-
-         for (int i = 0; i <= objectsTransform.Length - 1; i++)
-            {
-                for(int k = 0; k <= totalObjects.Length - 1; k++)
-                {
-                 if (totalObjects[k].CompareTag("Object"))
-                 {
-                     objectsTransform[i] = totalObjects[k].transform;
-                     Debug.Log("match");
-                 }
-                 else
-                     Debug.Log("no match");
-                }
-
-            }
-            */
-
-        AutoFocus();
-        arCanvas.GetComponent<Transform>().rotation = new Quaternion(0, 0, 0, 0);
 
         positionsQueue = new Queue<Vector3>();
+        lastPositionsQueue = new Queue<Vector3>();
 
         for (int i = 0; i <= objectsTransform.Length - 1; i++)
         {
-            Debug.Log("hi");
             objectsPosition[i] = objectsTransform[i].position;
             positionsQueue.Enqueue(objectsPosition[i]);
         }
+
+/*        for(int i = 8; i <= 0; i--)
+        {
+            Debug.Log("hi");
+            lastPositionsQueue.Enqueue(objectsPosition[i]);
+        }*/
 
         foreach (Vector3 position in positionsQueue)
         {
             Debug.Log(position);
         }
 
+        AutoFocus();
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    [SerializeField]
     private Vector3 actualPosition;
+    [SerializeField]
     private Vector3 nextPosition;
 
     //Moves the canvas for the next object to be on centre of the screen
@@ -91,32 +71,25 @@ public class CanvasManager : MonoBehaviour
 
         positionsQueue.Enqueue(actualPosition);
 
-
-
-
-
-        /*for (int i = 0; i <= objectsTransform.Length; i++)
-        {
-
-            actualPosition = arCanvas.GetComponent<Transform>().position;
-
-            if(i < objectsTransform.Length - 1)
-            {
-                Debug.Log("normal");
-                nextPosition = objectsTransform[i + 1].position - actualPosition;
-            }
-            else
-            {
-                Debug.Log("not normal");
-                nextPosition = objectsTransform[0].position - actualPosition;
-            }
-
-            arCanvas.GetComponent<Transform>().position = -nextPosition;
-
-            //return;
-
-        }*/
     }
+/*
+    private void GetActualPosition()
+    {
+        actualPosition = positionsQueue.Dequeue();
+
+        arCanvas.GetComponent<Transform>().position = actualPosition;
+    }*/
+
+  /*  public void SwitchToNextPosition()
+    {
+
+        nextPosition = positionsQueue.Peek();
+
+        arCanvas.GetComponent<Transform>().position = -nextPosition;
+
+        positionsQueue.Enqueue(actualPosition);
+
+    }*/
 
     private bool isZoomed = false;
     [SerializeField]
@@ -160,7 +133,7 @@ public class CanvasManager : MonoBehaviour
         }
     }
 
-    private bool rotate;
+   /* private bool rotate;
     public void RotateObject()
     {
         if (!rotate)
@@ -175,9 +148,14 @@ public class CanvasManager : MonoBehaviour
             arCanvas.GetComponent<Transform>().rotation = new Quaternion(0, 0, 0, 0);
         }
 
-    }
+    }*/
     public void AutoFocus()
     {
         CameraDevice.Instance.SetFocusMode(CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
+    }
+
+    public void Focus()
+    {
+        CameraDevice.Instance.SetFocusMode(CameraDevice.FocusMode.FOCUS_MODE_NORMAL);
     }
 }
